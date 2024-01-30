@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-bottom: 178px;
+}
+
+.link-header {
+    color: #17233D;
+    margin-right: 32px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.button-header {
+    color: #FFF;
+    margin-right: 32px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    cursor: pointer;
+}
+
+.logo-image {
+    display: inline-block;
+    width: 596px;
+    height: 500px;
+    margin-left: 125px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #161A49;
+    width: 582px;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px;
+}
+
+p {
+    width: 493px;
+    color: #4B505A;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 183.333% */
+    letter-spacing: 0.5px;
+}
+
+.learn {
+    color: #6FBF44;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .logo-image {
+        display: inline-block;
+        width: auto;
+        height: 290px;
+        margin-left: 50px;
+    }
+
+    h1 {
+        color: #161A49;
+        width: 100%;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.596px;
+    }
+
+    section {
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .learn {
+        font-size: 35px;
+        margin-right: auto;
+    }
+}
